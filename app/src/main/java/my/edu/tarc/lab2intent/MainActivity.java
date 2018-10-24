@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView textViewReply;
                 textViewReply = findViewById(R.id.textViewReply);
                 String stringReply = data.getStringExtra(SecondActivity.TAG_REPLY);
-                textViewReply.setText("" + stringReply);
+                textViewReply.setText(stringReply);
             }
         }
     }
